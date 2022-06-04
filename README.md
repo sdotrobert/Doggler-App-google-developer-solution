@@ -1,36 +1,20 @@
-Inventory - Starter Code
-==================================
+Vocabulary App
 
-Starter code for Android Basics in Kotlin.
+====================
 
-Introduction
-------------
+This is a vocabulary app which is the second assignment from Android Development class.
 
-This app is an stater code for an Inventory tracking app. Demos how to add, update, sell, and delete
- items from the local database.
-This app demonstrated
-the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.  
+The app's functionalties are simple as follow: 
 
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[LiveData](https://developer.android.com/topic/libraries/architecture/livedata),
-[Flow](https://developer.android.com/kotlin/flow),
-[View Binding](https://developer.android.com/topic/libraries/view-binding),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/)
-with the SafeArgs plugin for parameter passing between fragments.
+1. User can add vocabularies with the "add button" in the bottom right corner.
+2. User can edit vocabularies by clicking on the body of vocabularies to enter the editing screen (fragment).
+3. Also, user can delete the vocabularies by clicking the DELETE button in the editing screen.
+4. Clicking the star icon on the right side of vocabularies to mark it as Favorite Vocabularies.
+5. If user want to remove specific vocabulary from Favorite Vocabularies, just click on the star icon on the right again.
+6. Clicking the star icon on the top right corner, shows only vocabularies with mark.
 
-Pre-requisites
---------------
+Summary
+====================
 
-You need to know:
-- How to create and use fragments.
-- How to navigate between fragments, and use safeArgs to pass data between fragments.
-- How to use architecture components including ViewModel, LiveData, and LiveData transformations.
-- How to use coroutines for long-running tasks.
-- RecyclerView and adapters
-- SQLite database and the SQLite query language
-
-
-Getting Started
----------------
-
-1. Download and run the app.
+This is a implementation of Room library, and include CRUD functionalties.
+Also, this app include the techniques of using fragments as navigation component.
