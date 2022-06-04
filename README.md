@@ -1,10 +1,10 @@
-Vocabulary App
 
+Vocabulary App
 ====================
 
 This is a vocabulary app which is the second assignment from Android Development class.
 
-The app's functionalties are simple as follow: 
+The app's functionalities are simple as follow: 
 
 1. User can add vocabularies with the "add button" in the bottom right corner.
 2. User can edit vocabularies by clicking on the body of vocabularies to enter the editing screen (fragment).
@@ -16,5 +16,6 @@ The app's functionalties are simple as follow:
 Summary
 ====================
 
-This is a implementation of Room library, and include CRUD functionalties.
+This is a implementation of Room library, and include CRUD functionalities.
+
 Also, this app include the techniques of using fragments as navigation component.
